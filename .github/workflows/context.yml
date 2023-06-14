@@ -1,5 +1,5 @@
 name: Show context
-on: push
+on: workflow_dispatch
 jobs:
   show-context:
     runs-on: ubuntu-latest
