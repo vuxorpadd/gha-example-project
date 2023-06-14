@@ -1,0 +1,8 @@
+name: Show context
+on: push
+jobs:
+  show-context:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch code
+        run: echo {{ toJSON(github) }}
